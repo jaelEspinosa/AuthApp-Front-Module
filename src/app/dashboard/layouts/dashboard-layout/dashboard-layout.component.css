@@ -1,0 +1,25 @@
+.fondo{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../../../assets/images/fondoDashboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+*{
+  color: white;
+}
+
+.container{
+  width: 95vw;
+  height: 95vh;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+span{
+  margin: 0px 5px;
+}

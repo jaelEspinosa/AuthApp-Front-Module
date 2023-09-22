@@ -1,2 +1,26 @@
-<p>dashboard-layout works!</p>
-<router-outlet/>
+<div class="fondo">
+ <div class="container">
+
+   <h1>Dashboard</h1>
+
+   <hr>
+   <br>
+   <h3>user</h3>
+   <br>
+   <h4>Logeado como: <span>{{ user()?.name | titlecase }}</span></h4>
+
+   <br>
+   <h4>Email: <span>{{ user()?.email | titlecase }}</span></h4>
+
+   <br>
+   <h4>UserId: <span>{{ user()?._id | titlecase }}</span></h4>
+
+   <br>
+   <h4>Role: <span>{{ user()!.roles[0] }}</span></h4>
+
+   <br>
+   <button (click)="onLogout()">Cerrar Sesión</button>
+   <router-outlet/>
+ </div>
+
+</div>
