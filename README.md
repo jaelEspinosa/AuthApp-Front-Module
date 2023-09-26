@@ -7,11 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Ejecutar en Localhost
 
 ```
-Para ejecutar esta app, es necesario tener corriendo el backend NEST-BACKEND
+Para ejecutar esta app, es necesario tener corriendo el backend 
 
 ```
 
-``` https://github.com/jaelEspinosa/nest_backend ```
+ [NEST-BACKEND][nest-backend]
 
 
 ```
@@ -32,3 +32,7 @@ Para el desarrollo de la aplicación se han usado;
 - Señales (signals)
 - Carga perezosa (lazy-loading)
 - Rutas protegidas (guards)
+
+
+
+[nest-backend]:https://github.com/jaelEspinosa/nest_backend
