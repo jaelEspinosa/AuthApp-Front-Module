@@ -16,7 +16,7 @@
    <h4>UserId: <span>{{ user()?._id | titlecase }}</span></h4>
 
    <br>
-   <h4>Role: <span>{{ user()!.roles[0] }}</span></h4>
+   <h4 *ngIf="user()?.roles">Role: <span *ngFor="let rol of user()?.roles">{{rol}}, </span></h4>
 
    <br>
    <button (click)="onLogout()">Cerrar Sesión</button>

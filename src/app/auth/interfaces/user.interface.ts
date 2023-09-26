@@ -6,5 +6,6 @@ export interface User {
   name:     string;
   isActive: boolean;
   roles:    string[];
+  tokenOneUse: string;
 
 }

@@ -1,7 +1,7 @@
 import { Component, computed, effect, inject } from '@angular/core';
 import { AuthService } from './auth/services/auth.service';
 import { AuthStatus } from './auth/interfaces';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent {
 
   private authService = inject ( AuthService )
   private router = inject ( Router )
-
+  private route = inject ( ActivatedRoute )
 
   public finishedAuthCheck = computed<boolean>( ()=> {
     if (this.authService.authStatus() === AuthStatus.checking){
@@ -35,7 +35,6 @@ public authStatusChangedEffect = effect( ()=>{
         this.router.navigateByUrl( url );
         return;
       case AuthStatus.notAuthenticated:
-        this.router.navigateByUrl( '/auth/login');
         return;
   }
 

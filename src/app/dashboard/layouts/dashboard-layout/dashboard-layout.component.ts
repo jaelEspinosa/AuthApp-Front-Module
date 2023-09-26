@@ -11,7 +11,7 @@ export class DashboardLayoutComponent {
   private authService = inject( AuthService )
 
   constructor(){
-    console.log(this.user())
+
   }
 
 

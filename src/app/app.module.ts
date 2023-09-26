@@ -16,6 +16,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     AppRoutingModule,
     HttpClientModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

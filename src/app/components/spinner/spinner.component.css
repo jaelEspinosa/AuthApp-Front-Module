@@ -1,3 +1,13 @@
+.screen
+{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 36, 36);
+}
+
 .spinner {
   margin: 45vh auto 0;
   width: 70px;
@@ -7,7 +17,7 @@
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #0775be;
+  background-color: #b2b7bb;
 
   border-radius: 100%;
   display: inline-block;
