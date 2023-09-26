@@ -1,4 +1,4 @@
-# AuthApp
+# AuthApp Front Module
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
@@ -7,11 +7,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Ejecutar en Localhost
 
 ```
-Para ejecutar esta app, es necesario tener corriendo el backend 
+Para ejecutar esta app, es necesario tener en ejecución el AuthApp-Backend-Module
 
 ```
 
- [NEST-BACKEND][nest-backend]
+ [AuthApp-Backend-Module][nest-backend]
 
 
 ```
@@ -35,4 +35,4 @@ Para el desarrollo de la aplicación se han usado;
 
 
 
-[nest-backend]:https://github.com/jaelEspinosa/nest_backend
+[nest-backend]:https://github.com/jaelEspinosa/AuthApp-Backend-Module.git
