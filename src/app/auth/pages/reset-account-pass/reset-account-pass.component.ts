@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
@@ -12,7 +12,7 @@ import swall from 'sweetalert2';
 })
 
 
-export class ResetAccountPassComponent {
+export class ResetAccountPassComponent implements OnInit {
 
   private fb          = inject( FormBuilder );
   private authService = inject ( AuthService );
